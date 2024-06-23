@@ -9,15 +9,15 @@ func Sum(a, b int) int {
 }
 
 func main() {
-	var a int
-	var b int
+	var aNum int
+	var bNum int
 
 	fmt.Println("Enter the 1st integer number:")
-	fmt.Scan(&a)
+	fmt.Scan(&aNum)
 
 	fmt.Println("Enter the 2nd integer number:")
-	fmt.Scan(&b)
+	fmt.Scan(&bNum)
 
-	fmt.Printf("The sum is: %v", Sum(a, b))
+	fmt.Printf("The sum is: %v", Sum(aNum, bNum))
 
 }
